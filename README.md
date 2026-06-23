@@ -13,12 +13,5 @@ start backend >
 
 ------------------
 
-start frontend>
-
-#cd MyStockWeb
-
-#npm install
-
-#npm run dev
 
 
