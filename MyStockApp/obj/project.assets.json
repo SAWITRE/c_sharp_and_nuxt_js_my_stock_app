@@ -2627,11 +2627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2026\\MyStockApi\\MyStockApiApp\\MyStockApi.csproj",
+      "projectUniqueName": "D:\\2026\\MyStockApp\\MyStockApp\\MyStockApi.csproj",
       "projectName": "MyStockApi",
-      "projectPath": "D:\\2026\\MyStockApi\\MyStockApiApp\\MyStockApi.csproj",
+      "projectPath": "D:\\2026\\MyStockApp\\MyStockApp\\MyStockApi.csproj",
       "packagesPath": "C:\\Users\\ST_CHOM\\.nuget\\packages\\",
-      "outputPath": "D:\\2026\\MyStockApi\\MyStockApiApp\\obj\\",
+      "outputPath": "D:\\2026\\MyStockApp\\MyStockApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ST_CHOM\\AppData\\Roaming\\NuGet\\NuGet.Config"

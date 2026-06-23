@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nkg7IzLmWCI=",
+  "dgSpecHash": "31Nzq7omYHE=",
   "success": true,
-  "projectFilePath": "D:\\2026\\MyStockApi\\MyStockApiApp\\MyStockApi.csproj",
+  "projectFilePath": "D:\\2026\\MyStockApp\\MyStockApp\\MyStockApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ST_CHOM\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ST_CHOM\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
