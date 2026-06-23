@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "MyStockApi/**"
+      - "MyStockApp/**"
 
 jobs:
   deploy:
@@ -21,15 +21,15 @@ jobs:
           dotnet-version: "8.0.x"
 
       - name: Restore dependencies
-        working-directory: MyStockApi
+        working-directory: MyStockApp
         run: dotnet restore
 
       - name: Build project
-        working-directory: MyStockApi
+        working-directory: MyStockApp
         run: dotnet build -c Release --no-restore
 
       - name: Publish project
-        working-directory: MyStockApi
+        working-directory: MyStockApp
         run: dotnet publish -c Release -o out --no-build
 
       - name: Trigger Railway Deploy
