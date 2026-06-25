@@ -5,12 +5,17 @@ var builder = WebApplication.CreateBuilder(args);
 // --- เพิ่มตรงนี้ครับ ---
 builder.Services.AddCors(options =>
 {
+    /*
     options.AddPolicy("AllowNuxt", policy =>
     {
         policy.WithOrigins("http://localhost:3000") // URL ของ Nuxt 4
               .AllowAnyMethod()
               .AllowAnyHeader();
-    });
+    });*/
+    options.AddPolicy("AllowVercel",
+        policy => policy.WithOrigins("https://c-sharp-and-nuxt-js-my-stock-web-yo.vercel.app") // ใส่ URL ของ Vercel
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
 });
 // ----------------------
 
@@ -36,7 +41,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 // --- เพิ่มตรงนี้ครับ (ต้องวางก่อน app.MapControllers()) ---
-app.UseCors("AllowNuxt");
+app.UseCors("AllowVercel");
 // -----------------------------------------------------
 
 app.UseAuthorization();
